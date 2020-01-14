@@ -1,8 +1,12 @@
-# Aprovisionamiento de una instancia Watson Studio (speech_to_text)
+### Aprovisionamiento de una instancia Watson Studio (speech_to_text)
 
 Cree el archivo _main.tf_ donde se agregará el contenido de la plantilla del recurso de speech to text.
 
-Para crear la instancia de servicio de speech to text, debe configurar el espacio y organización de su cuenta, esto lo puede verificar desde la configuración de su cuenta en IBM Cloud o desde la CLI ejecutando $ibmcloud target
+```
+touch main.tf
+```
+
+Para crear la instancia de servicio de speech to text, debe configurar el espacio y organización de su cuenta, esto lo puede verificar desde la [configuración de su cuenta en IBM Cloud](https://cloud.ibm.com/account/cloud-foundry) o desde la CLI ejecutando ```$ibmcloud target```
  
 ```
 data "ibm_space" "spacedata" {
