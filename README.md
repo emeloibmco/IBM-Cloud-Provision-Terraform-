@@ -27,9 +27,9 @@ El archivo de instalación quedara alojado en la carpeta de descargas que tenga 
 cd $HOME/Downloads
 ```
 **c.**	Extraiga el paquete Terraform y copie el archivo binario en su directorio terraform.
-unzip terraform_0.12.19_linux_amd64.zip
 
 ```
+unzip terraform_0.12.19_linux_amd64.zip
 sudo mv terraform $HOME/terraform
 ```
 
