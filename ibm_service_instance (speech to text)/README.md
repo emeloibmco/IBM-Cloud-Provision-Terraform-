@@ -25,14 +25,14 @@ resource "ibm_service_instance" "service_instance" {
 
 Ejecute los siguientes comandos para finalizar la creación de los recursos de ibm cloud.
 
+* Genere el plan de ejecución de Terraform, aquí se valida la sintaxis de su archivo de configuración y las definiciones de recursos frente a las especificaciones que proporciona el plug-in IBM Cloud Provider, observe la salida del comando y verifique que la configuración del servicio este correcta.
+
 ```
 Terraform plan
 ```
 
-Se genera un plan de ejecución de Terraform, aquí se valida la sintaxis de su archivo de configuración y las definiciones de recursos frente a las especificaciones que proporciona el plug-in IBM Cloud Provider, observe la salida del comando y verifique que la configuración del servicio este correcta.
+* Cree el recurso que ha descrito en la plantilla de terraform, confirme la ejecución cuando lo solicite con la palabra **yes.**
 
 ```
 Terraform apply
 ```
-
-Cree el recurso que ha descrito en la plantilla de terraform, confirme la ejecución cuando lo solicite con la palabra yes.
