@@ -1,6 +1,6 @@
-### Aprovisionamiento de una instancia Watson Studio (speech_to_text)
+### Aprovisionamiento de una instancia Watson Studio (speech_to_text) 📌
 
-Cree el archivo _main.tf_ donde se agregará el contenido de la plantilla del recurso de speech to text.
+Cree el archivo _main.tf_ donde se agregará el contenido de la plantilla del recurso de speech to text. 
 
 ```
 touch main.tf
