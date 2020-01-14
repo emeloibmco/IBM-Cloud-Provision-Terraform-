@@ -142,3 +142,9 @@ provider "ibm" {
 ```
 terraform init
 ```
+
+En este repositorio encontrara las plantillas y el procedimiento para aprovisionar los siguientes recursos:
+
+* **(Infraestructura) Crear subredes en vpc's existentes** 🚀
+* **(Infraestructura) Crear una VPC en un grupo de recursos determinado** 🚀
+* **(Instancia de servicio de Watson Assistant) Crear una instancia de Speech to Text** 🚀
