@@ -2,7 +2,7 @@
 Laboratorio para el despiegue de recursos de IBM Cloud haciendo uso de Terraform
 
 ## Requerimentos para el uso de Terraform
-*	SO linux
+*	SO linux 💻
 
 ## Indice
 
@@ -145,13 +145,15 @@ terraform init
 
 En este repositorio encontrara las plantillas y el procedimiento para aprovisionar los siguientes recursos:
 
-* **(Infraestructura) Crear subredes en vpc's existentes** 🚀
-* **(Infraestructura) Crear una VPC en un grupo de recursos determinado** 🚀
-* **(Instancia de servicio de Watson Assistant) Crear una instancia de Speech to Text** 🚀
+* **(Infraestructura) Crear subredes en vpc's existentes. [ir](https://github.com/emeloibmco/IBM-Cloud-Provision-Terraform-/tree/master/ibm_is_subnet%20(on%20an%20existing%20vpc))** 🚀
+* **(Infraestructura) Crear una VPC en un grupo de recursos determinado. [ir](https://github.com/emeloibmco/IBM-Cloud-Provision-Terraform-/tree/master/ibm_is_vpc)** 🚀
+* **(Instancia de servicio de Watson Assistant) Crear una instancia de Speech to Text. [ir](https://github.com/emeloibmco/IBM-Cloud-Provision-Terraform-/tree/master/ibm_service_instance%20(speech%20to%20text))** 🚀
+* **(Instancia de servicio VSI) Crear una instancia de servidor virtual en una vpc existente. [ir](https://github.com/emeloibmco/IBM-Cloud-Provision-Terraform-/tree/master/ibm_is_instance%20(VSI))** 🚀
+
 
 
 # Referencias 📖
 
 * [Documentación oficial IBM Cloud Provider V1.0.0](https://ibm-cloud.github.io/tf-ibm-docs/v1.0.0/)
-* [Automatizar el aprovisionamiento de recursos en la nube con Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
+* [Automatizar el aprovisionamiento de recursos en la nube con Terraform (Docs IBM)](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
 * [Algunos ejemplos](https://github.com/IBM-Cloud/terraform-provider-ibm/tree/master/examples)
