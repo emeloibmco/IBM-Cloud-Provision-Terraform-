@@ -2,7 +2,12 @@
 Laboratorio para el despiegue de recursos de IBM Cloud haciendo uso de Terraform
 
 ## Requerimentos para el uso de Terraform
-*	SO linux 💻
+
+Como caracteristicas especificas de este laboratorio se uso:
+
+*	Una maquina virtual ubuntu 💻
+* Terraform v0.12.19
+* Terraform provider v1.0.0
 
 ## Indice
 
